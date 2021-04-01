@@ -41,5 +41,5 @@ let app = http.createServer(async (req, res) => {
 });
 
 // Start the server on port 3000
-app.listen(3000, "127.0.0.1");
+app.listen(3000, "localhost");
 console.log("Node server running on port 3000");
